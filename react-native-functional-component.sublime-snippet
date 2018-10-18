@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+import * as React from 'react';
+import { View } from 'react-native';
+
+interface I${TM_FILENAME/(.+)\..+|.*/$1/:name}Props {
+  
+};
+
+const ${TM_FILENAME/(.+)\..+|.*/$1/:name}: React.SFC<I${TM_FILENAME/(.+)\..+|.*/$1/:name}Props> = ($2) => {
+	return (
+
+	);
+};
+
+export { ${TM_FILENAME/(.+)\..+|.*/$1/:name} };
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rnfunc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js, source.jsx, source.ts, source.tsx</scope>
+</snippet>

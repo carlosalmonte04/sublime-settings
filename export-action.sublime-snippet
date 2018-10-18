@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+export const ${1:actionName} = ({${2:payload}}) => ({
+  type: T.${3:ACTION_NAME},
+  payload: {${2:payload}}
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>exporta</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, source.jsx, source.ts, source.tsx</scope>
+</snippet>

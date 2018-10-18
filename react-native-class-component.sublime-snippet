@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+import * as React from 'react';
+import { View } from 'react-native';
+
+interface I${TM_FILENAME/(.+)\..+|.*/$1/:name}Props {
+  
+};
+
+interface I${TM_FILENAME/(.+)\..+|.*/$1/:name}State {
+  
+};
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.PureComponent<I${TM_FILENAME/(.+)\..+|.*/$1/:name}Props, I${TM_FILENAME/(.+)\..+|.*/$1/:name}State> {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+
+    };
+  }
+
+	render() {
+		return (
+			$1
+		);
+	}
+}
+
+export { ${TM_FILENAME/(.+)\..+|.*/$1/:name} };
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rncomp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js, source.jsx, source.ts, source.tsx</scope>
+</snippet>

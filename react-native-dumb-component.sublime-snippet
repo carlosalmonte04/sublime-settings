@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+import React from "react";
+import { View } from "react-native";
+
+export const ${1:input} = (props) => {
+  const { ${2:input} } = props;
+
+  return (
+    <View>
+      <View />
+    </View>
+  )
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rnd</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

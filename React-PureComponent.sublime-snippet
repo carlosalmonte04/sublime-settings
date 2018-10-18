@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+import React from "react";
+import { View } from "react-native"
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends React.PureComponent {
+  render() {
+  <View>
+  </View>
+  }
+}
+
+export { ${TM_FILENAME/(.+)\..+|.*/$1/:name} }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rcc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

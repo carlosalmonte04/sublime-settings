@@ -1,0 +1,30 @@
+// SublimeLinter Settings - User
+{
+  "delay": 0.5,
+  "statusbar.counters_template": "",
+  "styles": [
+        {
+            "mark_style": "outline",
+            "priority": 1,
+            "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+            "icon": "dot",
+            "types": [
+                "warning"
+            ]
+        },
+        {
+            "mark_style": "outline",
+            "priority": 1,
+            "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+            "icon": "dot",
+            "types": [
+                "error"
+            ]
+        }
+    ],
+  "linters": {
+    "tslint": {
+      "selector": "source.ts, source.tsx"
+    }
+  }
+}

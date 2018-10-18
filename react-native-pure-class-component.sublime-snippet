@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+import React from "react";
+import { View } from "react-native";
+
+class ${1:ComponentName} extends React.PureComponent {
+  
+  render() {
+    const { ${2:input} } = this.props;
+
+    return (
+      <View>
+        <View />
+      </View>
+    )
+  }
+}
+
+export { ${1} }
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rnc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
