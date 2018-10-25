@@ -11,6 +11,8 @@
   { "keys": ["alt+7"], "command": "focus_group", "args": { "group": 6 } },
   { "keys": ["alt+8"], "command": "focus_group", "args": { "group": 7 } },
   { "keys": ["alt+9"], "command": "focus_group", "args": { "group": 8 } },
+  { "keys": ["command+shift+k"], "command": "scroll_lines", "args": {"amount": 10.0} },
+  { "keys": ["command+shift+j"], "command": "scroll_lines", "args": {"amount": -10.0} },
   { "keys": ["/"], "command": "close_tag", "args": { "insert_slash": true }, "context":
   [
     { "key": "selector", "operator": "equal", "operand": "(text.html, text.xml, meta.jsx.js, meta.tsx.ts) - string - comment", "match_all": true },

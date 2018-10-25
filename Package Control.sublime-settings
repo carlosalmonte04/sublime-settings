@@ -24,10 +24,12 @@
 		"React ES6 Snippets",
 		"React Native Autocomplete",
 		"ReactJS Snippets",
+		"SideBarTools",
 		"SublimeLinter",
 		"SublimeLinter-eslint",
 		"SublimeLinter-flow",
 		"SublimeLinter-tslint",
-		"TypeScript"
+		"TypeScript",
+		"Vintageous"
 	]
 }
