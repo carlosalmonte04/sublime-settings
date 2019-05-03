@@ -1,7 +1,9 @@
 <snippet>
     <content><![CDATA[
 const localStyles = StyleSheet.create({
-    ${1}
+    container: {
+      ${1}
+    }
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

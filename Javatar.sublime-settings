@@ -1,0 +1,30 @@
+{
+	"jdk_version":
+	{
+		"JDK1.8.0u161":
+		{
+			"path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/bin",
+			"update": "161",
+			"version": "1.8.0"
+		},
+		"JDK9.0.4":
+		{
+			"path": "/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin",
+			"version": "9.0.4"
+		},
+		"use": ""
+	},
+	"message_id": 20,
+	"project_data":
+	{
+		"2":
+		{
+			"folders":
+			[
+				{
+					"path": "/Users/carlosalmonte/Desktop/WORK/Equinox/RetailDashboard/Retail_Dashboard_Mobile"
+				}
+			]
+		}
+	}
+}

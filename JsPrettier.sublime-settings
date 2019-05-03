@@ -3,5 +3,8 @@
   "prettier_options": {
     "trailingComma": "all",
     "singleQuote": false
-  }
+  },
+  "auto_format_on_save_excludes": [
+    "*/node_modules/*",
+  ]
 }

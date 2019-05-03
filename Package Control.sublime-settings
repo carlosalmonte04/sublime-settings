@@ -17,7 +17,10 @@
 		"ColorPicker",
 		"Emmet",
 		"ESLint",
+		"Flow",
 		"JsPrettier",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
 		"Naomi",
 		"Package Control",
 		"React Development Snippets",
@@ -29,6 +32,7 @@
 		"SublimeLinter-eslint",
 		"SublimeLinter-flow",
 		"SublimeLinter-tslint",
+		"Swift",
 		"TypeScript",
 		"Vintageous"
 	]

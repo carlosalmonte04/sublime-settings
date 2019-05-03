@@ -1,7 +1,7 @@
 <snippet>
     <content>
-      <![CDATA[console.log('${1:}$SELECTION', ${2})]]>
+      <![CDATA[console.log('**Info: ${1:}$SELECTION', ${2})]]>
     </content>    
-    <tabTrigger>log</tabTrigger>    
+    <tabTrigger>logi</tabTrigger>    
     <scope>source.js, source.jsx, source.ts, source.tsx</scope>
 </snippet>

@@ -3,7 +3,7 @@
 import React from 'react';
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>rimp</tabTrigger>
+	<tabTrigger>rimr</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js, source.jsx, source.ts, source.tsx</scope>
 </snippet>
